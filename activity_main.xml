@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nirma.canejuice.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/sugarcane3"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/fls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flavours"
+        android:textSize="50sp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:padding="15dp"/>
+
+
+    <ImageView
+        android:id="@+id/natutalss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/natural1"
+        android:layout_toLeftOf="@id/natural"
+        android:layout_below="@id/fls"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp"
+        android:maxHeight="5px"
+        android:maxWidth="5px"/>
+
+
+
+
+    <TextView
+        android:id="@+id/natural"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Natural"
+        android:layout_toRightOf="@id/fls"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/fls"
+        android:textSize="40sp"
+        android:padding="8dp"
+        android:fontFamily="cursive"/>
+
+
+    <ImageView
+        android:id="@+id/mint_leaf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mintleaf1"
+        android:layout_toLeftOf="@id/mint"
+        android:layout_below="@id/natural"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp"
+        android:maxHeight="5px"
+        android:maxWidth="5px"/>
+
+    <TextView
+        android:id="@+id/mint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mint"
+        android:layout_below="@id/natural"
+        android:layout_toRightOf="@id/fls"
+        android:textSize="40sp"
+        android:fontFamily="cursive"
+        android:padding="8dp"/>
+
+    <ImageView
+        android:id="@+id/lemons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lemons1"
+        android:layout_toLeftOf="@id/lemon"
+        android:layout_below="@id/mint"
+        android:paddingRight="30dp"
+        android:paddingTop="20dp"
+        android:maxHeight="5px"
+        android:maxWidth="5px"/>
+
+
+    <TextView
+        android:id="@+id/lemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lemon"
+        android:layout_below="@id/mint"
+        android:layout_toRightOf="@id/fls"
+        android:fontFamily="cursive"
+        android:textSize="40sp"
+        android:padding="8dp"/>
+
+    <ImageView
+        android:id="@+id/bsalt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bs2"
+        android:layout_toLeftOf="@id/blk"
+        android:layout_below="@id/lemon"
+        android:paddingRight="30dp"
+        android:paddingTop="25dp"
+        android:maxHeight="5px"
+        android:maxWidth="5px" />
+
+
+    <TextView
+        android:id="@+id/blk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Black Salt"
+        android:layout_below="@id/lemon"
+        android:layout_toRightOf="@id/fls"
+        android:textSize="40sp"
+        android:padding="8dp"
+        android:fontFamily="cursive"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank You"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/blk"
+        android:padding="18dp"
+        android:textSize="40sp"
+        android:fontFamily="cursive"/>
+
+</RelativeLayout>
